@@ -1,0 +1,177 @@
+//variables
+@import 'fonts';
+@import 'bg';
+
+@mixin size ($alto, $ancho){
+    width: $ancho;
+    height: $alto;
+}
+    
+
+
+/* Home */
+
+
+
+
+.menu1{
+
+    margin-left: 2%;
+    
+
+}
+.nav-item{
+    
+    margin-right: 20px;
+    border-radius: 10px;
+    
+}
+
+.nav-item:hover{
+
+    opacity: 2;
+}
+
+/* Footer */
+
+
+/* Home */
+
+
+/* Servicios */
+
+/*Titulo*/
+
+.tituloServicios{
+   
+    position: center;
+    text-align: center;
+    font-size: 400%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: 'Red Hat Display', sans-serif;
+    
+    
+
+
+}
+
+/* Imagenes 
+
+.imagenesTodas{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;*/
+
+       .imagenServicios{
+          
+          @include size(250px,250px );
+          display: flex;
+          flex-direction: row;
+          
+       }
+/*
+}
+.imagenServicios:hover{
+    transform: scale(1.2);
+}*/
+/* Tablas */
+
+.imprescindible, .avanzado, .premiun, .parrafoUno{
+    border: solid 2px black;
+   
+}
+.contenedorTabla{
+    
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 200px 200px;
+    grid-template-rows: 20px 300px;
+    gap: 5px;
+}
+
+/* Proceso */
+
+.bodyProceso{
+
+    background-color: $background-colorbody;
+
+}
+.tituloProceso{
+    margin-bottom: 8%;
+    margin-top: 5%;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: $font-family;
+    
+
+}
+
+.relevamiento{
+    margin-bottom: 20%;
+    margin-left:550px;
+    margin-right:550px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+ 
+    .relevamientoTitulo{
+        margin-bottom: 10%;
+        font-family:$font-family;
+        font-size: 40px;
+        
+      .relevamientoParrafo{
+
+       font-family:$font-family;
+       font-size: 25px;
+       
+      }
+    }
+ 
+}
+
+
+ 
+/* maps menu */
+
+$menu: (
+  
+     white:rgba(255, 255, 255, 0.815)
+   
+);
+
+@each $nav, $color in $menu{
+    .color-#{$nav} {
+        background-color: $color;
+
+    }
+}
+
+
+/* Servicios maps-get */
+
+$estilo: (
+
+color:#d3d3d3,
+fuente:'Red Hat Display',
+tamañofuente: 50px
+);
+
+body {
+
+    background-color:map-get($estilo, color);
+    h1{
+        font-family: map-get($estilo, fuente);
+        font-size: map-get($estilo, tamañofuente);
+    }
+    
+}

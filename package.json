@@ -1,0 +1,21 @@
+{
+  "name": "disenoweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss":"node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiagomezz01/BairesInteriores-Gomez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maiagomezz01/BairesInteriores-Gomez/issues"
+  },
+  "homepage": "https://github.com/maiagomezz01/BairesInteriores-Gomez#readme"
+}

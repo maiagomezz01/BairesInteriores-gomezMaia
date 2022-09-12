@@ -1,0 +1,289 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Home */ 
+
+
+.navbar-brand{
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+   
+}
+.nav-link:hover{
+
+    opacity: 0.7;
+}
+
+.menu1{
+
+    margin-left: 2%;
+
+}
+.menu2{
+
+    display: flex;
+    justify-content: end;
+}
+
+
+/*carousel*/
+
+.carousel-item{
+
+    height: 100%;
+    
+    }
+
+
+/*footer*/
+
+
+
+
+/* Servicios */
+
+/*Body*/
+.bodyServicios{
+background-image: linear-gradient(to right, gainsboro,white);
+
+}
+/*Estructura de las imágenes*/
+
+.imagenesTodas{
+
+    display: flex;
+    justify-content: space-evenly; 
+ 
+    
+}
+/*Titulo*/
+
+ .tituloServicios{
+   
+    position: center;
+    text-align: center;
+    font-size: 400%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: 'Red Hat Display', sans-serif;
+    
+    
+
+
+}
+/*Imagenes*/
+
+.imagenServicios{
+
+    height: 250px;
+    width: 250px;
+}
+.imagenServicios:hover{
+    transform: scale(1.2);
+}
+/*Tablas*/
+
+.imprescindible, .avanzado, .premiun, .parrafoUno{
+    border: solid 2px black;
+   
+}
+.contenedorTabla{
+    
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 200px 200px;
+    grid-template-rows: 20px 300px;
+    gap: 5px;
+}
+
+
+
+/* Proceso*/
+
+.bodyProceso{
+
+    background-image: url(../Img\ dw/bairesProceso.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tituloProceso{
+    
+   
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 60px;
+
+    
+    
+}
+.relevamientoTitulo{
+
+    font-size: 30px;
+    font-family: 'Red Hat Display', sans-serif;
+
+
+}
+
+.relevamiento{
+
+   
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    display: flex;
+    
+
+
+    
+}
+.relevamientoParrafo{
+    
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    padding-left: 10%;
+    padding-right: 5%;
+    
+    
+
+
+
+}
+ /* Reformas */
+
+ .bodyReformas{
+
+    background-color: beige;
+ }
+
+ .antesDespues{
+
+    display: inline;
+
+ }
+ .imagenRefo{
+
+    height: 600px;
+    width: 600px;
+    margin-right: 40px;
+ }
+ .imagenRefodos{
+
+    height: 600px;
+    width: 600px;
+    margin-right: 40px;
+
+
+ }
+ .imagenRefotres{
+    
+    height: 600px;
+    width: 600px;
+    margin-right: 40px;
+    
+
+ }
+ .parrafoReformas{
+
+
+    margin-bottom: 5%;
+    margin-top: 8%;
+    font-size: 40px;
+    padding-right: 20%;
+    padding-left: 0%;
+    font-family: 'Red Hat Display', sans-serif;
+    position: relative;
+    white-space: normal;
+    
+    
+ }
+  /* Contactos */
+
+  .bodyContacto{
+
+    background-color: rgb(231, 231, 229);
+  }
+
+  .formulario{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+  .formulario2{
+
+    margin-bottom: 10%;
+  }
+  .contacto{
+
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  /* Media Query 320px, 768px, 1200px */
+   
+
+   @media screen and (max-width: 320px) {
+    /* Home*/
+     
+   
+    /* Servicios */
+
+    .tituloServicios{
+        font-size: 50px;
+        margin-top: 25%;
+    }
+    .imagenesTodas{
+        display: flex;
+        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: (1,1fr);
+    }
+    /* Tablas */
+
+    .imprescindible, .avanzado, .premiun, .parrafoUno{
+
+        font-size: 15px;
+    }
+    .contenedorTabla{
+     padding: 0;
+   }
+
+   }
+    
+   @media screen and (max-width:768px) {
+
+    /* Home */
+
+    .container-fluid{
+
+     display: flex;
+     justify-content: space-between;
+
+    }
+     
+    /*Servicios*/
+
+    .tituloServicios{ 
+        margin-top: 15%;
+    }
+
+    .imagenesTodas{
+
+        display: grid;
+        grid-template-columns: (1,1fr);
+
+    }
+
+    /* Media Query 1200px se adapta completamente*/
+   }
+  

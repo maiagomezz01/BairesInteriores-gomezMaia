@@ -1,0 +1,39 @@
+/* Menu */
+.menu1{
+
+    margin-left: 2%;
+
+}
+
+
+/* Proceso */
+
+.bodyProceso {
+  background-color: #e6d3d3; }
+
+.tituloProceso {
+  margin-bottom: 8%;
+  margin-top: 5%;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  font-family: "Red Hat Display"; }
+
+.relevamiento {
+  margin-bottom: 20%;
+  margin-left: 550px;
+  margin-right: 550px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .relevamiento .relevamientoTitulo {
+    margin-bottom: 10%;
+    font-family: "Red Hat Display";
+    font-size: 40px; }
+    .relevamiento .relevamientoTitulo .relevamientoParrafo {
+      font-family: "Red Hat Display";
+      font-size: 25px; }
+
+
+/* maps */
