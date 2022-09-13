@@ -1,39 +1,137 @@
-/* Menu */
-.menu1{
+/* Nav */
+.menu1 {
+  margin-left: 2%; }
 
-    margin-left: 2%;
+.nav-item {
+  margin-right: 20px;
+  border-radius: 10px; }
 
-}
+.nav-item:hover {
+  opacity: 2; }
 
+/* Footer */
+.container > footer {
+  margin-top: 0 !important; }
+
+/* Home */
+.carousel-caption {
+  width: 100%;
+  left: 0; }
+
+.carousel-caption > * {
+  text-align: center;
+  margin-bottom: 20%; }
+
+/* Servicios */
+/*Titulo*/
+.tituloServicios {
+  position: center;
+  text-align: center;
+  font-size: 400%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: 'Red Hat Display', sans-serif; }
+
+/* Imagenes Servicios */
+.imagenesTodas {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%; }
+  .imagenesTodas .imagenServicios {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20%; }
+
+.imagenServicios:hover {
+  transform: scale(1.2); }
+
+/* Tablas */
+.contenedorTabla {
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 250px 200px 200px;
+  grid-template-rows: 40px 300px;
+  gap: 5px; }
+  .contenedorTabla .imprescindible, .contenedorTabla .avanzado, .contenedorTabla .premiun, .contenedorTabla .parrafoUno {
+    border: solid 2px black;
+    padding: 2%; }
 
 /* Proceso */
+/* Reformas */
+.antesDespues {
+  display: inline; }
+  .antesDespues .imagenRefo {
+    height: 600px;
+    width: 600px;
+    margin-right: 40px; }
+    .antesDespues .imagenRefo .imagenRefodos {
+      height: 600px;
+      width: 600px;
+      margin-right: 40px; }
+      .antesDespues .imagenRefo .imagenRefodos .imagenRefotres {
+        height: 600px;
+        width: 600px;
+        margin-right: 40px; }
 
-.bodyProceso {
-  background-color: #e6d3d3; }
+.parrafoReformas {
+  margin-bottom: 5%;
+  margin-top: 8%;
+  font-size: 40px;
+  padding-right: 20%;
+  padding-left: 0%;
+  font-family: 'Red Hat Display', sans-serif;
+  position: relative;
+  white-space: normal; }
 
-.tituloProceso {
-  margin-bottom: 8%;
-  margin-top: 5%;
-  font-size: 70px;
-  display: flex;
-  justify-content: center;
-  font-family: "Red Hat Display"; }
+/* Contacto */
+.contacto {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%; }
+  .contacto .formulario {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: 'Red Hat Display', sans-serif; }
+    .contacto .formulario .formulario2 {
+      margin-bottom: 10%; }
 
-.relevamiento {
-  margin-bottom: 20%;
-  margin-left: 550px;
-  margin-right: 550px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; }
-  .relevamiento .relevamientoTitulo {
-    margin-bottom: 10%;
+.form-group {
+  margin-bottom: 2%; }
+
+/* maps menu */
+.color-white {
+  background-color: rgba(255, 255, 255, 0.815); }
+
+/* Servicios maps-get */
+body {
+  background-color: #f5f3f3; }
+  body h1 {
     font-family: "Red Hat Display";
-    font-size: 40px; }
-    .relevamiento .relevamientoTitulo .relevamientoParrafo {
-      font-family: "Red Hat Display";
-      font-size: 25px; }
+    font-size: 50px; }
+  body h2 {
+    font-family: "Red Hat Display";
+    font-size: 50px; }
 
-
-/* maps */
+@media screen and (max-width: 768px) {
+  /* Menu */
+  .menu1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+  /* Home */
+  .container-fluid {
+    display: flex;
+    justify-content: space-between; }
+  /*Servicios*/
+  .tituloServicios {
+    margin-top: 15%; }
+  .imagenesTodas {
+    display: grid;
+    grid-template-columns: 1, 1fr; }
+  /* Media Query 1200px se adapta completamente*/ }
