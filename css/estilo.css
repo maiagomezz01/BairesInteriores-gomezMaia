@@ -1,26 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300&display=swap");
 /* Nav */
 .menu1 {
   margin-left: 2%; }
+  .menu1 .navbar-brand {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Cormorant Garamond";
+    color: #fff; }
 
 .nav-item {
   margin-right: 20px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  font-family: "Red Hat Display";
+  font-size: 18px; }
 
 .nav-item:hover {
   opacity: 2; }
 
+.navbar {
+  background-color: transparent !important; }
+
+a.nav-link {
+  color: #fff; }
+
 /* Footer */
+footer {
+  background-color: transparent; }
+
 .container > footer {
   margin-top: 0 !important; }
+
+img, svg {
+  width: 25%;
+  display: flex;
+  justify-content: right; }
+
+.fbig {
+  margin-right: 0%;
+  margin-left: 0%; }
+
+.col-md-4 {
+  font-family: "Cormorant Garamond"; }
 
 /* Home */
 .carousel-caption {
   width: 100%;
-  left: 0; }
+  left: 1%;
+  padding: 30%; }
 
 .carousel-caption > * {
   text-align: center;
-  margin-bottom: 20%; }
+  margin-top: 10%;
+  margin-bottom: 10%; }
+
+a.btn-slider {
+  padding: 5px 100px 5px 100px;
+  color: #fff;
+  border: #fff solid 1px;
+  text-decoration: none; }
+
+a.btn-slider:hover {
+  opacity: 1;
+  transition: 2s;
+  color: black;
+  background-color: #fff; }
 
 /* Servicios */
 /*Titulo*/
@@ -30,15 +74,19 @@
   font-size: 400%;
   margin-top: 10%;
   margin-bottom: 10%;
-  font-family: 'Red Hat Display', sans-serif; }
+  font-family: "Cormorant Garamond"; }
 
 /* Imagenes Servicios */
+.parrafo {
+  font-family: "Cormorant Garamond";
+  font-size: 20px; }
+
 .imagenesTodas {
   display: flex;
   justify-content: space-between;
   margin-left: 5%; }
   .imagenesTodas .imagenServicios {
-    width: 250px;
+    width: 300px;
     height: 250px;
     margin-bottom: 20%; }
 
@@ -63,46 +111,108 @@
 
 /* Proceso */
 /* Reformas */
+.bodyReformas {
+  background-color: #2b2828; }
+
 .antesDespues {
-  display: inline; }
+  margin-left: 28%;
+  display: flex;
+  flex-direction: column; }
   .antesDespues .imagenRefo {
     height: 600px;
     width: 600px;
-    margin-right: 40px; }
+    margin-right: 40px;
+    margin-bottom: 10%;
+    margin-top: 5%; }
     .antesDespues .imagenRefo .imagenRefodos {
       height: 600px;
       width: 600px;
-      margin-right: 40px; }
+      margin-right: 40px;
+      margin-bottom: 5%;
+      margin-top: 5%; }
       .antesDespues .imagenRefo .imagenRefodos .imagenRefotres {
         height: 600px;
         width: 600px;
-        margin-right: 40px; }
+        margin-right: 40px;
+        margin-bottom: 10%;
+        margin-top: 5%; }
 
-.parrafoReformas {
+.obras h1 {
   margin-bottom: 5%;
   margin-top: 8%;
+  margin-left: 5%;
   font-size: 40px;
   padding-right: 20%;
   padding-left: 0%;
-  font-family: 'Red Hat Display', sans-serif;
-  position: relative;
-  white-space: normal; }
+  color: #fff;
+  font-family: "Cormorant Garamond"; }
+
+.obras h2 {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 15%;
+  margin-bottom: 10%;
+  font-family: "Cormorant Garamond"; }
+
+.obrasDos {
+  margin-left: 23%;
+  color: #fff;
+  font-family: "Cormorant Garamond";
+  font-size: 10px;
+  display: flex;
+  flex-direction: row; }
+  .obrasDos .imgObra {
+    width: 30px;
+    height: 30px; }
+
+.obrasDos h3 {
+  margin-bottom: 70%;
+  margin-left: 12%;
+  margin-right: 1%;
+  font-size: 20px; }
+
+/*carrousel*/
+.carousel-inner-dos img {
+  width: 50%;
+  max-height: 460px; }
+
+.carousel-inner-dos {
+  height: 200px;
+  width: 50%;
+  display: flex;
+  justify-content: center; }
 
 /* Contacto */
+.bodyContacto {
+  background-color: #2b2828; }
+
 .contacto {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 10%; }
   .contacto .formulario {
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 50px;
-    font-size: 30px;
-    font-family: 'Red Hat Display', sans-serif; }
+    color: #fff; }
     .contacto .formulario .formulario2 {
       margin-bottom: 10%; }
 
+.formulario h1 {
+  font-size: 40px;
+  font-family: "Cormorant Garamond";
+  margin-bottom: 8%; }
+
 .form-group {
-  margin-bottom: 2%; }
+  margin-bottom: 2%;
+  font-family: "Cormorant Garamond";
+  color: #fff;
+  font-size: 25px; }
+
+.btn {
+  background-color: #fff;
+  border: #fff;
+  color: black;
+  font-family: "Cormorant Garamond"; }
 
 /* maps menu */
 .color-white {
@@ -110,28 +220,10 @@
 
 /* Servicios maps-get */
 body {
-  background-color: #f5f3f3; }
+  background-color: #2b2828; }
   body h1 {
-    font-family: "Red Hat Display";
-    font-size: 50px; }
+    font-family: "Cormorant Garamond";
+    font-size: 30px; }
   body h2 {
-    font-family: "Red Hat Display";
+    font-family: "Cormorant Garamond";
     font-size: 50px; }
-
-@media screen and (max-width: 768px) {
-  /* Menu */
-  .menu1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between; }
-  /* Home */
-  .container-fluid {
-    display: flex;
-    justify-content: space-between; }
-  /*Servicios*/
-  .tituloServicios {
-    margin-top: 15%; }
-  .imagenesTodas {
-    display: grid;
-    grid-template-columns: 1, 1fr; }
-  /* Media Query 1200px se adapta completamente*/ }
