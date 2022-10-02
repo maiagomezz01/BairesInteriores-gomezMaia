@@ -15,47 +15,46 @@
 
 
 .menu1{
+ margin-top: 1%;
+ margin-left: 2%;
 
-margin-left: 2%;
-
-    .navbar-brand{
-
-        font-size: 20px;
-        font-style: italic;
-        font-weight: bold;
-        font-family: $fontfamily;
-        color: #fff;
+        .navbar-brand img{
         
-
+         width: 75%;
+        }            
     
-    }
 }
 .nav-item{
-    
-    margin-right: 20px;
+
+    margin-top: 5%;
+    margin-right: 28px;
+    padding-bottom: 10px;
     border-radius: 10px;
-    font-family: $font-family;
-    font-size: 18px;
+    font-family: $font;
+    font-size: 15px;
+   
+
     
     
 }
 
 .nav-item:hover{
 
-    opacity: 2;
+    opacity: 0.8;
 }
 .navbar{
 
-    background-color:transparent !important;
-
+    background-color:white !important;
+    
 }
 
 
 a.nav-link{
 
-    color: #fff;
+    color:rgb(112, 110, 110);
   
 }
+
 
 
 /* Footer */
@@ -70,23 +69,20 @@ footer{
     margin-top: 0 !important;
    
 }
-img, svg {
+.footerBi{
 
- width: 25%;
- display: flex;
- justify-content: right;
-}
-.fbig{
-
-margin-right: 0%;
-margin-left: 0%;
+    font-family: $fontfamily;
+    font-size: 15px;
+    margin-right: 30%;
+    margin-left: 36%;
 
 }
-.col-md-4{
 
-  font-family: $fontfamily;
 
-}
+
+
+
+
 
 /* Home */
 
@@ -94,7 +90,7 @@ margin-left: 0%;
    
     width: 100%;
     left: 1%;
-    padding: 30%
+    padding:17%
 }
 
 .carousel-caption > * {
@@ -104,6 +100,7 @@ margin-left: 0%;
     margin-bottom: 10%;
   
 }
+
 a.btn-slider{
 
     padding: 5px 100px 5px 100px;
@@ -114,87 +111,248 @@ a.btn-slider{
 }
 
 a.btn-slider:hover{
-    opacity: 1;
+    opacity: 0.8;
     transition: 2s;
     color: black;
     background-color: #fff;
 }
+.uno{
+
+  font-family: $fontfamily;
+  font-size: 35px;
+  
+
+}
+.dos{
+
+
+    font-family: $fontfamily;
+    font-size: 50px;
+
+}
 
 /* Servicios */
 
-/*Titulo*/
+.divServicios{
 
-.tituloServicios{
+ width: 100%;
+ height: 100%;
+ background-image: url("https://res.cloudinary.com/patch-gardens/image/upload/v1624026650/cms/Online%20magazine/Decorate%20your%20bedroom%20with%20plants/16-9_Hero-min.jpg");
+ border: solid transparent;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
     
-    position: center;
-    text-align: center;
-    font-size: 400%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    font-family: $fontfamily;
+
+    .tituloServicios{
+    
+     position: center;
+     text-align: center;
+     margin-top: 20%;
+    
+        
+              
+        
+    }
     
 }
+
+
+.parrafoServicios{
+
+    font-family: $fontfamily;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25%;
+    color: #fff;
+  }
+
+
+
+
+
+/* Servicios maps-get */
+
+$estilo: (
+
+color:#fff,
+fuente:'Cormorant Garamond',
+estilofuente: 50px,
+estilofuentee: 70px
+);
+
+body {
+
+    background-color:map-get($estilo, color);
+    .tituloServicios{
+        font-family: map-get($estilo, fuente);
+        font-size: map-get($estilo, estilofuentee);
+        color: map-get($estilo, color);
+    }  
+    .servicioss{
+        font-family: map-get($estilo, fuente);
+        font-size: map-get($estilo, estilofuente);
+        
+    }
+    
+}
+
 
 /* Imagenes Servicios */
 
 
-.parrafo {
-
-font-family: $fontfamily;
-font-size: 20px;
-
-}
-
-.imagenesTodas{
-    
-    display: flex;
-    justify-content: space-between;
-    margin-left: 5%;
-    
-
-     .imagenServicios{
+ .imagenServicios{
 
       @include size(250px,300px );
-      margin-bottom: 20%;
+      margin-left: 38%;
+      margin-top: 10%;
     }            
 
-}
+
 .imagenServicios:hover{
 
     transform: scale(1.2);
   }
 
-/* Tablas */
+.diseño{
 
-.contenedorTabla{
-    
-    width: 100%;
-    margin-bottom: 10%;
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 250px 200px 200px;
-    grid-template-rows: 40px 300px;
-    gap: 5px;
-    
-    .imprescindible, .avanzado, .premiun, .parrafoUno{
-        border: solid 2px black;
-        padding: 2%;
-
-
-    }
+    font-family: $fontfamily;
+    font-size: 30px;
+    margin-left: 42%;
+    margin-top: 5%;
 }
+.diseñoParrafo{
+
+    font-family: $fontfamily;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    text-align: center;
+ 
+}
+.reforma{
+
+    font-family: $fontfamily;
+    font-size: 30px;
+    margin-left: 38%;
+    margin-top: 5%;
+}
+.mobiliario{
+
+    font-family: $fontfamily;
+    font-size: 30px;
+    margin-left: 41%;
+    margin-top: 5%;
+}
+.asesoramiento{
+
+    font-family: $fontfamily;
+    font-size: 30px;
+    margin-left: 39%;
+    margin-top: 5%;
+}
+
+/* Tabla */
+
+.parrafoTabla{
+
+   font-family: $fontfamily;
+   font-size: 30px;
+   margin-left: 17%;
+   margin-top: 10%;
+
+}
+
+.tabla{
+    border: black solid 1px;
+    width: 900px;
+    margin-left: 18%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family: $fontfamily;
+}
+
+
+.tablaUno{
+
+    font-family: $font;
+    font-weight: lighter;
+}
+
+
 /* Proceso */
 
+
+.proceso{
+
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.procesoEtapas{
+
+   margin-right: 20%;
+   margin-top: 5%;
+   font-family: $fontfamily;
+   margin-left: 10%;
+
+    .tituloProceso{
+
+      margin-bottom: 30%;
+    }
+
+
+}
+.relevamiento{
+
+    margin-bottom: 10%;
+      
+    .parrafoRelevamiento{
+
+        margin-bottom: 10%;
+    }
+}
+.entregas{
+
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.procesoo{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.procesoDos{
+
+    width: 564px;
+    
+}
+.procesoEtapass{
+
+    font-family: $fontfamily;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+.entrega{
+
+margin-bottom: 10%;
+}
+.ejecucion {
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
 
 
 /* Reformas */
 
 .bodyReformas{
 
-background-color: rgb(43, 40, 40);
+background-color:white;
 }
 
 .antesDespues{
@@ -237,13 +395,13 @@ background-color: rgb(43, 40, 40);
 
 
     
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     margin-top: 8%;
-    margin-left: 5%;
+    margin-left: 45%;
     font-size: 40px;
     padding-right: 20%;
     padding-left: 0%;
-   color: #fff;
+   color: black;
    font-family: $fontfamily;
    
 
@@ -251,10 +409,10 @@ background-color: rgb(43, 40, 40);
  } 
  .obras h2{
 
-    color: #fff;
+    color: black;
     font-size: 25px;
     margin-left: 15%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     font-family: $fontfamily;
    
 
@@ -262,7 +420,7 @@ background-color: rgb(43, 40, 40);
    
  .obrasDos{
     margin-left: 23%;
-    color: #fff;
+    color: black;
     font-family: $fontfamily;
     font-size: 10px;
     display: flex;
@@ -270,32 +428,55 @@ background-color: rgb(43, 40, 40);
     
     .imgObra{
 
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
 
         
     }
     
 }
+.obraTres{
+
+    margin-left: 25%;
+
+}
+
+
 .obrasDos h3{
-    margin-bottom: 70%;
+    margin-bottom: 10%;
     margin-left: 12%;
     margin-right: 1%;
     font-size: 20px;
+}
+
+.obraTres h2{
+
+    font-family: $fontfamily;
+    font-size: 30px;
+    color: black;
+
+}
+.obraTres h3{
+
+   font-family: $fontfamily;
+   font-size: 20px;
+   color: black;
+
 }
       
 /*carrousel*/
 
 .carousel-inner-dos img {
     width: 50%;
-    max-height: 460px;
+    height: 460px;
 }
 
 .carousel-inner-dos{
- height: 200px;
+ height: 460px;
  width: 50%;
- display: flex;
- justify-content: center;
+ margin-bottom: 10%;
+ margin-left: 25%;
+ 
 }
 
 
@@ -303,7 +484,7 @@ background-color: rgb(43, 40, 40);
 
 .bodyContacto{
 
-    background-color: rgb(43, 40, 40);
+    background-color: white;
 }
 
 .contacto{
@@ -315,7 +496,7 @@ background-color: rgb(43, 40, 40);
     .formulario{
         margin-top: 100px;
         margin-bottom: 50px;
-        color: #fff;
+        color:black;
 
         .formulario2{
 
@@ -340,19 +521,172 @@ background-color: rgb(43, 40, 40);
 
     margin-bottom: 2%;
     font-family: $fontfamily;
-    color: #fff;
+    color: black;
     font-size: 25px;
   }
 
   .btn{
 
-   background-color: #fff;
-   border: #fff;
+   background-color: white;
    color: black;
+   border: rgb(165, 155, 155) solid 1px;
    font-family: $fontfamily;
 
   }
+  .btn:hover{
+
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+  }
+
+.seguinos{
+
+ margin-left: 38%;
+ font-size: 28px;
+ font-family: $fontfamily;
+ margin-top: 5%;
+
+
+}
+.fb {
+
+width: 12px;
+opacity: 0.5;
+
+
+
+}
+.ig{
+
+    width: 30px;
+    opacity: 0.5;
+    margin-left: 7px;
+}
+.divRedes{
  
+margin-right: 38%;
+margin-top: 4%;
+
+
+}
+
+
+
+.calleFalsa{
+
+ font-size: 19px;
+ font-family: $fontfamily;
+ margin-left: 36%;
+ margin-top: 3%;
+}
+
+.calleFalsaa{
+
+ font-size: 19px;
+ font-family: $fontfamily;
+ margin-left: 43%;
+}
+
+.calleFalsaaa{
+
+ font-size: 19px;
+ font-family: $fontfamily;
+ margin-left: 44%;
+ margin-bottom: 8%;
+ 
+ 
+
+    
+}
+.medios{
+
+display: flex;
+justify-content: space-between;
+opacity: 0.3;
+
+}
+.mediosDos{
+
+display: flex;
+justify-content: space-between;
+margin-top: 3%;
+
+
+
+}
+
+.ubicacion{
+    margin-left: 30%;
+    width: 50px;
+    
+    
+
+}
+.telefono{
+
+    width: 50px;
+    height: 50px;
+}
+.email{
+
+   width: 50px; 
+   height: 60px;
+   margin-right: 30%;
+}
+
+ .dire{
+
+    margin-left: 28%;
+    font-family: $fontfamily;
+    font-size: 30px;
+    margin-right: 10%;
+    
+ }
+
+ .tel{
+
+   font-family: $fontfamily;
+   font-size: 30px;
+   margin-right: 10%;
+
+ }
+
+ .mail{
+  margin-left: 1%;
+  margin-right: 40%;
+  font-family: $fontfamily;
+  font-size: 30px;
+
+ }
+ .mediosTres{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: $fontfamily;
+    margin-bottom: 10%;
+    color: rgb(141, 140, 140);
+
+ }
+
+ .calle{
+
+    margin-left: 28%;
+    font-size: 20px;
+    margin-right: 2%;
+ }
+ .info{
+
+    margin-right: 28%;
+    font-size: 20px;
+ }
+ .num{
+
+    font-size: 20px;
+    
+ }
+
+
 /* maps menu */
 
 $menu: (
@@ -368,29 +702,3 @@ $menu: (
     }
 }
 
-
-/* Servicios maps-get */
-
-$estilo: (
-
-color:rgb(43, 40, 40),
-fuente:'Cormorant Garamond',
-estilofuente: 50px,
-estilofuentee: 30px
-);
-
-body {
-
-    background-color:map-get($estilo, color);
-    h1{
-        font-family: map-get($estilo, fuente);
-        font-size: map-get($estilo, estilofuentee);
-        
-    }  
-    h2{
-        font-family: map-get($estilo, fuente);
-        font-size: map-get($estilo, estilofuente);
-        
-    }
-    
-}
