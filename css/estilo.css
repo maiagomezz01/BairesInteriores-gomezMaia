@@ -180,23 +180,12 @@ body {
   margin-left: 39%;
   margin-top: 5%; }
 
-/* Tabla */
 .parrafoTabla {
   font-family: "Cormorant Garamond";
   font-size: 30px;
   margin-left: 17%;
-  margin-top: 10%; }
-
-.tabla {
-  border: black solid 1px;
-  width: 900px;
-  margin-left: 18%;
-  margin-top: 5%;
-  margin-bottom: 10%;
-  font-family: "Cormorant Garamond"; }
-  .tabla .tablaUno {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: lighter; }
+  margin-top: 10%;
+  margin-bottom: 10%; }
 
 /* Proceso */
 .proceso {
@@ -232,10 +221,37 @@ body {
 
 .procesoDos {
   width: 564px; }
+  @media (max-width: 480px) {
+    .procesoDos {
+      width: 50%;
+      object-fit: cover; } }
+  @media (max-width: 768px) {
+    .procesoDos {
+      width: 50%;
+      object-fit: cover; } }
+  @media (max-width: 1200px) {
+    .procesoDos {
+      width: 50%;
+      object-fit: cover; } }
 
 .ejecucion {
   margin-top: 20%;
   margin-bottom: 10%; }
+
+@media (max-width: 480px) {
+  .procesoUno {
+    width: 50%;
+    object-fit: cover; } }
+
+@media (max-width: 768px) {
+  .procesoUno {
+    width: 50%;
+    object-fit: cover; } }
+
+@media (max-width: 1200px) {
+  .procesoUno {
+    width: 50%;
+    object-fit: cover; } }
 
 /* Reformas */
 .bodyReformas {
@@ -398,3 +414,5 @@ body {
 /* maps menu */
 .color-white {
   background-color: rgba(255, 255, 255, 0.815); }
+
+/* Media Query 425px, 768px, 1200px */

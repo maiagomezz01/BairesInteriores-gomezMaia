@@ -1,0 +1,418 @@
+/* Media Query 480px, 768px, 1200px */
+
+/*  480px  */
+
+/* Home */
+
+/*  480px  */
+
+
+.d-none{
+
+display: table;
+
+}
+
+.carousel-caption{
+
+ padding: 0;
+ margin-bottom:5%;
+}
+
+
+.dos{
+
+font-size: 40px;
+
+}
+
+
+/*  768px  */
+
+.carousel-caption{
+
+margin-bottom: 17%;
+}
+
+.carousel-caption > * {
+
+margin-top: 3%;
+margin-bottom: 5%;
+
+
+}
+
+  /*  Nav  */
+
+.menu1{
+
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*  768px  */
+
+.menu1{
+
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Footer */
+
+
+/*  480px  */
+
+.seguinos {
+
+    margin-left: 17%;
+    font-size: 24px;
+    font-family: fontfamily;
+    margin-top: 5%;
+
+
+}
+.divRedes{
+   
+    margin-right: 24%;
+    margin-top: 4%;
+}
+
+.calleFalsa{
+
+    font-size: 18px;
+    margin-left: 14%;
+
+}
+.calleFalsaa{
+
+    margin-left: 34%;
+    font-size: 18px;
+
+
+}
+.calleFalsaaa{
+
+    margin-left: 38%;
+    font-size: 18px;
+
+}
+
+.footerbi{
+
+  font-size: 12px;
+  margin-left: 13%;
+  
+}
+
+/*  768px  */
+
+.seguinos {
+   
+        margin-left: 17%;
+        font-size: 30px;
+        font-family: fontfamily;
+        margin-top: 5%;
+}
+
+    
+    
+    .calleFalsa{
+    
+    font-size: 18px;
+    margin-left: 28%;
+    
+    }
+    .calleFalsaa{
+   
+        margin-left: 41%;
+        font-size: 18px;
+    
+    
+    }
+    .calleFalsaaa{
+    
+        margin-left: 38%;
+        font-size: 18px;
+    
+    }
+    
+    .footerbi{
+    
+      font-size: 12px;
+      margin-left: 26%;
+      
+    }
+    
+/*  Servicios  */
+
+.parrafoServicios{
+    
+        text-align: center;
+      }
+      .imagenServicios{
+   
+       margin-left: 15%;
+    
+      }
+      .diseño{
+   
+       margin-left: 25%;
+      }
+      .reforma{
+   
+        margin-left:15%;
+        
+      }
+    
+      .mobiliario{
+  
+        margin-left: 25%;
+      }
+    
+      .asesoramiento{
+  
+       margin-left: 18%;
+    
+      }
+    
+      .parrafoTabla{
+    
+        font-size: 25px;
+        margin-left: 17%;
+        margin-right: 13%;
+        margin-bottom: 20%;
+        margin-top: 20%;
+        text-align: center;
+      
+        }
+    
+    
+    
+  /*  768px */
+    
+    .imagenServicios{
+    
+    margin-left: 30%;
+    
+    }
+    
+    .diseño{
+    
+    margin-left:35%;
+    
+    }
+    .reforma{
+   
+    margin-left:30%;
+    
+    }
+    
+    .mobiliario{
+  
+    margin-left: 35%;
+    
+    }
+    .asesoramiento{
+    
+    margin-left:31%;
+    
+    }
+    
+    .parrafoTabla{
+
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    
+    }
+    
+    /*  Reformas */
+
+    .obras h1{
+        
+        margin-left: 38%;
+        
+        }
+        
+        .obras h2{
+        
+        text-align: center;
+        margin-left: 0;
+        }
+        
+        .obraDos h3{
+        
+        text-align: center;
+        margin-right: 0;
+        margin-bottom:25%;
+        margin-top:10;
+        
+        }
+        
+        a.imgObra{
+        
+        margin-top:17%;
+        margin-right:22%;
+        }
+        
+        .obraTres{
+        
+        margin-left:12%;
+        }
+        
+        .obraTres h3{
+        
+        margin-right:0;
+        }
+        .carousel-inner-dos img{
+        
+        height: 200px;
+        width: 50px;
+        }
+        .carousel-inner-dos {
+        
+        height: 200px;
+        width: 50px;
+        }
+        
+        /*  768px  */
+
+        .obras h1{
+            
+            margin-left: 40%;
+            }
+            
+            .obras h2{
+            
+            text-align: center;
+            margin-right:15%;
+            
+            }
+            
+            .obrasDos{
+            
+            margin-left:18%;
+            
+            }
+            
+            .obrasDos h3{
+            
+            margin-right: 1%;
+            
+            }
+            
+            
+            .carousel-inner-dos img{
+            
+            height: 250px;
+            width: 50px;
+            }
+            .carousel-inner-dos {
+            
+            height: 250px;
+            width: 50px;
+            }
+            
+
+    /*  Proceso  */
+
+    .procesoUno{
+        
+        width:50%;
+        object-fit: cover;
+        }
+        
+        .procesoDos{
+        
+        width:50%;
+        object-fit: cover;
+        }
+        
+        /*  768px  */
+        
+        
+        .procesoUno{
+        
+        width:50%;
+        object-fit: cover;
+        }
+        
+        .procesoDos{
+        
+        width:50%;
+        object-fit: cover;
+        }
+            
+    /*  Contacto  */
+
+    .medios{
+        
+        margin-top:25%;
+        }
+        
+        .ubicacion{
+        
+        margin-left: 20%;
+        }
+        
+        .email{
+        
+        margin-left: 20%;
+        }
+        
+        .dire{
+        
+        font-size:20px;
+        margin-left: 20%;
+        }
+        
+        .tel{
+        
+        font-size:20px;
+        margin-right:10px;
+        }
+        
+        .mail{
+        
+        font-size:20px;
+        }
+        
+        .calle{
+        
+        margin-left:12%;
+        margin-right:2%;
+        }
+        
+        /*  768px  */
+        
+        .dire{
+        
+        margin-left: 25%;
+        font-size: 20px;
+
+        }
+    
+        .tel{
+        
+        font-size:20px;
+        }
+        
+        .mail{
+        
+        font-size:20px;
+        }
+        .calle{
+        
+        margin-left:22%;
+        }
+        .info{
+        
+        margin-right:24%;
+        }
