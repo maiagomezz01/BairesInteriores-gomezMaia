@@ -1,0 +1,53 @@
+/* Responsive */
+
+$smartphone: 480px;
+$tablets: 768px;
+$desktop: 1200px;
+
+@media (max-width:$desktop) {
+
+.seguinos {
+   
+    margin-top: 5%;
+}
+@media (max-width:$tablets) {
+    .seguinos {
+       
+        margin-left: 17%;
+        
+    }
+}
+    @media (max-width:$smartphone) {
+        .seguinos {
+           
+            margin-left: 17%;
+            
+        }
+    }        
+}
+
+
+
+@media (max-width:$tablets) {
+
+    .footerBi {
+
+    
+        margin-left: 36%;
+       
+       
+
+    }
+}
+@media (max-width:$smartphone) {
+
+    .footerBi {
+
+    
+        margin-left: 22%;
+    
+      
+
+    }
+}
+

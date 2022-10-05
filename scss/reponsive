@@ -87,7 +87,7 @@ margin-bottom: 5%;
 .calleFalsa{
 
     font-size: 18px;
-    margin-left: 14%;
+    margin-left: 17%;
 
 }
 .calleFalsaa{
@@ -107,7 +107,8 @@ margin-bottom: 5%;
 .footerbi{
 
   font-size: 12px;
-  margin-left: 13%;
+  margin-left: 22%;
+  margin-right: 0;
   
 }
 
