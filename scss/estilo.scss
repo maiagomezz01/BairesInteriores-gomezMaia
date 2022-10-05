@@ -2,6 +2,7 @@
 @import 'fonts';
 
 
+
 @mixin size ($alto, $ancho) {
     width: $ancho;
     height: $alto;
@@ -21,6 +22,7 @@
     .navbar-brand img {
 
         width: 75%;
+        
 
 
     }
@@ -722,6 +724,6 @@ $color in $menu {
 
     }
 }
-
+@import 'responsive';
 
 
