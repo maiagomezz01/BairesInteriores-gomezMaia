@@ -50,18 +50,6 @@
     margin-right: 5%; } }
 
 /* Home */
-@media (max-width: 480px) {
-  .uno {
-    font-size: 25px; } }
-
-@media (max-width: 480px) {
-  .dos {
-    font-size: 35px; } }
-
-@media (max-width: 480px) {
-  .carousel-caption {
-    margin-bottom: 10%; } }
-
 /* Nav */
 .menu1 {
   margin-top: 1%;
@@ -139,6 +127,14 @@ footer {
   text-align: center;
   margin-bottom: 5%; }
 
+@media (min-width: 480px) {
+  .carousel-caption {
+    margin-bottom: 10%; } }
+
+@media (min-width: 768px) {
+  .carousel-caption {
+    margin-bottom: 15%; } }
+
 a.btn-slider {
   padding: 5px 100px 5px 100px;
   color: #fff;
@@ -155,9 +151,17 @@ a.btn-slider:hover {
   font-family: "Cormorant Garamond";
   font-size: 35px; }
 
+@media (min-width: 480px) {
+  .uno {
+    font-size: 25px; } }
+
 .dos {
   font-family: "Cormorant Garamond";
   font-size: 50px; }
+
+@media (min-width: 480px) {
+  .dos {
+    font-size: 35px; } }
 
 /* Servicios */
 .divServicios {

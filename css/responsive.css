@@ -44,14 +44,3 @@
     margin-right: 5%; } }
 
 /* Home */
-@media (max-width: 480px) {
-  .uno {
-    font-size: 25px; } }
-
-@media (max-width: 480px) {
-  .dos {
-    font-size: 35px; } }
-
-@media (max-width: 480px) {
-  .carousel-caption {
-    margin-bottom: 10%; } }

@@ -176,6 +176,23 @@ margin-bottom: 4%;
 
 }
 
+@media (min-width:$smartphone) {
+
+    .carousel-caption {
+
+        margin-bottom: 10%;
+    }
+
+}
+@media (min-width:$tablets) {
+
+    .carousel-caption {
+
+        margin-bottom: 15%;
+    }
+
+}
+
 a.btn-slider {
 
     padding: 5px 100px 5px 100px;
@@ -199,6 +216,13 @@ a.btn-slider:hover {
 
 
 }
+@media (min-width:$smartphone) {
+
+    .uno {
+
+        font-size: 25px;
+    }
+}
 
 .dos {
 
@@ -207,6 +231,13 @@ a.btn-slider:hover {
     font-size: 50px;
 
 
+}
+@media (min-width:$smartphone) {
+
+    .dos {
+
+        font-size: 35px;
+    }
 }
 
 /* Servicios */
