@@ -4,6 +4,64 @@
 @import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@100 & family= Passions+Conflict & family= Red+Hat+Display:wght@600 & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Julius+Sans+One & family= Montserrat:wght@100 & family= Passions+Conflict & family= Red+Hat+Display: peso@600 & mostrar=cambiar");
 @import url("https://fonts.googleapis.com/css2? family= Julius+Sans+One & family= Montserrat:wght@100 & family= Passions+Conflict & family= Red+Hat+Display: wght@600 & family= Titillium+Web:wght@200 & display=swap");
+/* Responsive */
+/* Reformas */
+@media (max-width: 768px) {
+  .carousel-inner-dos img {
+    height: 350px; } }
+
+@media (max-width: 480px) {
+  .carousel-inner-dos img {
+    height: 200px; } }
+
+/* Contacto */
+@media (min-width: 480px) {
+  .dire {
+    font-size: 20px; } }
+
+@media (min-width: 480px) {
+  .tel {
+    font-size: 20px;
+    margin-left: 4%;
+    margin-right: 4%; } }
+
+@media (min-width: 480px) {
+  .mail {
+    font-size: 20px; } }
+
+@media (max-width: 480px) {
+  .calle {
+    font-size: 20px; } }
+
+@media (min-width: 480px) {
+  .num {
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 2%; } }
+
+@media (max-width: 480px) {
+  .info {
+    font-size: 20px; } }
+
+/* Servicios */
+@media (max-width: 480px) {
+  .imagenServicios {
+    margin-left: 5%;
+    margin-right: 5%; } }
+
+/* Home */
+@media (max-width: 480px) {
+  .uno {
+    font-size: 25px; } }
+
+@media (max-width: 480px) {
+  .dos {
+    font-size: 35px; } }
+
+@media (max-width: 480px) {
+  .carousel-caption {
+    margin-bottom: 10%; } }
+
 /* Nav */
 .menu1 {
   margin-top: 1%;
@@ -33,24 +91,23 @@
 /* Footer */
 footer {
   background-color: transparent; }
-  footer .footerBi {
-    font-family: "Cormorant Garamond";
-    font-size: 12px;
-    margin-right: 0;
-    margin-left: 36%; }
+
+.footerBi {
+  font-family: "Cormorant Garamond";
+  font-size: 12px;
+  margin-bottom: 4%; }
 
 .container > footer {
   margin-top: 0 !important; }
 
 .seguinos {
-  margin-left: 38%;
   font-size: 28px;
   font-family: "Cormorant Garamond";
+  margin-bottom: 3%;
   margin-top: 5%; }
 
 .divRedes {
-  margin-right: 38%;
-  margin-top: 4%; }
+  margin-bottom: 4%; }
 
 .fb {
   width: 12px;
@@ -63,31 +120,24 @@ footer {
 
 .calleFalsa {
   font-size: 19px;
-  font-family: "Cormorant Garamond";
-  margin-left: 36%;
-  margin-top: 3%; }
+  font-family: "Cormorant Garamond"; }
 
 .calleFalsaa {
   font-size: 19px;
-  font-family: "Cormorant Garamond";
-  margin-left: 43%; }
+  font-family: "Cormorant Garamond"; }
 
 .calleFalsaaa {
   font-size: 19px;
   font-family: "Cormorant Garamond";
-  margin-left: 44%;
-  margin-bottom: 8%; }
+  margin-bottom: 3%; }
 
 /* Home */
 .carousel-caption {
-  width: 100%;
-  left: 1%;
-  padding: 17%; }
+  margin-bottom: 20%; }
 
 .carousel-caption > * {
   text-align: center;
-  margin-top: 10%;
-  margin-bottom: 10%; }
+  margin-bottom: 5%; }
 
 a.btn-slider {
   padding: 5px 100px 5px 100px;
@@ -125,10 +175,9 @@ a.btn-slider:hover {
 .parrafoServicios {
   font-family: "Cormorant Garamond";
   font-size: 30px;
-  display: flex;
-  justify-content: center;
   margin-bottom: 25%;
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
 
 /* Servicios maps-get */
 body {
@@ -145,8 +194,9 @@ body {
 .imagenServicios {
   width: 300px;
   height: 250px;
-  margin-left: 38%;
-  margin-top: 10%; }
+  margin: auto;
+  display: block;
+  margin-top: 5%; }
 
 .imagenServicios:hover {
   transform: scale(1.2); }
@@ -154,41 +204,43 @@ body {
 .diseño {
   font-family: "Cormorant Garamond";
   font-size: 30px;
-  margin-left: 42%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  text-align: center; }
 
 .diseñoParrafo {
   font-family: "Cormorant Garamond";
   font-size: 20px;
-  margin-left: 25%;
-  margin-right: 25%;
   margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
   text-align: center; }
 
 .reforma {
   font-family: "Cormorant Garamond";
   font-size: 30px;
-  margin-left: 38%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  text-align: center; }
 
 .mobiliario {
   font-family: "Cormorant Garamond";
   font-size: 30px;
-  margin-left: 41%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  text-align: center; }
 
 .asesoramiento {
   font-family: "Cormorant Garamond";
   font-size: 30px;
-  margin-left: 39%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  text-align: center; }
 
 .parrafoTabla {
   font-family: "Cormorant Garamond";
   font-size: 30px;
-  margin-left: 17%;
   margin-top: 10%;
-  margin-bottom: 10%; }
+  margin-bottom: 10%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%; }
 
 /* Proceso */
 .proceso {
@@ -222,6 +274,9 @@ body {
     .procesoo .procesoEtapass .entrega {
       margin-bottom: 10%; }
 
+.parrafoEntregas {
+  margin-bottom: 10%; }
+
 .procesoDos {
   width: 50%;
   object-fit: cover; }
@@ -234,6 +289,9 @@ body {
   margin-top: 20%;
   margin-bottom: 10%; }
 
+.parrafoEjecucion {
+  margin-bottom: 20%; }
+
 /* Reformas */
 .bodyReformas {
   background-color: white; }
@@ -241,49 +299,52 @@ body {
 .obras h1 {
   margin-bottom: 3%;
   margin-top: 8%;
-  margin-left: 45%;
   font-size: 40px;
-  padding-right: 20%;
-  padding-left: 0%;
   color: black;
-  font-family: "Cormorant Garamond"; }
+  font-family: "Cormorant Garamond";
+  text-align: center; }
 
 .obras h2 {
   color: black;
   font-size: 25px;
-  margin-left: 15%;
   margin-bottom: 5%;
-  font-family: "Cormorant Garamond"; }
+  font-family: "Cormorant Garamond";
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%; }
 
 .obrasDos {
-  margin-left: 23%;
   color: black;
   font-family: "Cormorant Garamond";
   font-size: 10px;
   display: flex;
-  flex-direction: row; }
+  justify-content: center; }
   .obrasDos .imgObra {
     width: 20px;
     height: 20px; }
 
 .obrasDos h3 {
-  margin-bottom: 10%;
-  margin-left: 12%;
-  margin-right: 1%;
-  font-size: 20px; }
+  font-size: 20px;
+  margin-right: 2%;
+  margin-left: 10%; }
+
+.imagenRefo {
+  margin-right: 10%; }
 
 .obraTres {
-  margin-left: 25%; }
+  text-align: center; }
 
 .obraTres h2 {
   font-family: "Cormorant Garamond";
   font-size: 30px;
-  color: black; }
+  color: black;
+  margin-top: 10%; }
 
 .obraTres h3 {
   font-family: "Cormorant Garamond";
   font-size: 20px;
-  color: black; }
+  color: black;
+  margin-bottom: 2%; }
 
 /*carrousel*/
 .carousel-inner-dos img {
@@ -293,8 +354,9 @@ body {
 .carousel-inner-dos {
   height: 460px;
   width: 50%;
-  margin-bottom: 10%;
-  margin-left: 25%; }
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center; }
 
 /* Contacto */
 .bodyContacto {
@@ -339,7 +401,7 @@ body {
   opacity: 0.3; }
 
 .ubicacion {
-  margin-left: 30%;
+  margin-left: 32%;
   width: 50px; }
 
 .telefono {
@@ -349,27 +411,24 @@ body {
 .email {
   width: 50px;
   height: 60px;
-  margin-right: 30%; }
+  margin-right: 32%; }
 
 .mediosDos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 3%; }
 
 .dire {
-  margin-left: 28%;
+  margin-left: 22%;
   font-family: "Cormorant Garamond";
-  font-size: 30px;
-  margin-right: 10%; }
+  font-size: 30px; }
 
 .tel {
   font-family: "Cormorant Garamond";
-  font-size: 30px;
-  margin-right: 10%; }
+  font-size: 30px; }
 
 .mail {
-  margin-left: 1%;
-  margin-right: 40%;
+  margin-right: 25%;
   font-family: "Cormorant Garamond";
   font-size: 30px; }
 
@@ -381,13 +440,12 @@ body {
   color: #8d8c8c; }
 
 .calle {
-  margin-left: 28%;
   font-size: 20px;
-  margin-right: 2%; }
+  margin-left: 28%; }
 
 .info {
-  margin-right: 28%;
-  font-size: 20px; }
+  font-size: 20px;
+  margin-right: 28%; }
 
 .num {
   font-size: 20px; }
@@ -395,24 +453,3 @@ body {
 /* maps menu */
 .color-white {
   background-color: rgba(255, 255, 255, 0.815); }
-
-/* Responsive */
-@media (max-width: 1200px) {
-  .seguinos {
-    margin-top: 5%; } }
-
-@media (max-width: 1200px) and (max-width: 768px) {
-  .seguinos {
-    margin-left: 17%; } }
-
-@media (max-width: 1200px) and (max-width: 480px) {
-  .seguinos {
-    margin-left: 17%; } }
-
-@media (max-width: 768px) {
-  .footerBi {
-    margin-left: 34%; } }
-
-@media (max-width: 480px) {
-  .footerBi {
-    margin-left: 24%; } }

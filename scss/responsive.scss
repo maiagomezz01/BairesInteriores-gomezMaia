@@ -4,50 +4,116 @@ $smartphone: 480px;
 $tablets: 768px;
 $desktop: 1200px;
 
-@media (max-width:$desktop) {
-
-.seguinos {
-   
-    margin-top: 5%;
-}
-@media (max-width:$tablets) {
-    .seguinos {
-       
-        margin-left: 17%;
-        
-    }
-}
-    @media (max-width:$smartphone) {
-        .seguinos {
-           
-            margin-left: 17%;
-            
-        }
-    }        
-}
 
 
+/* Reformas */
 
 @media (max-width:$tablets) {
 
-    .footerBi {
+    .carousel-inner-dos img {
 
-    
-        margin-left: 34%;
-       
-       
-
+        height: 350px;
     }
 }
+
 @media (max-width:$smartphone) {
 
-    .footerBi {
+    .carousel-inner-dos img {
 
-    
-        margin-left: 24%;
-    
-      
+        height: 200px;
 
+    }
+
+}
+
+/* Contacto */
+
+
+@media (min-width:$smartphone) {
+
+    .dire {
+
+        font-size: 20px;
     }
 }
 
+@media (min-width:$smartphone) {
+
+    .tel {
+        font-size: 20px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+@media (min-width:$smartphone) {
+
+    .mail {
+
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:$smartphone) {
+
+    .calle {
+
+        font-size: 20px;
+    }
+}
+
+@media (min-width:$smartphone) {
+
+    .num {
+        font-size: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media (max-width:$smartphone) {
+
+    .info {
+
+        font-size: 20px;
+    }
+}
+
+/* Servicios */
+
+@media (max-width:$smartphone) {
+
+    .imagenServicios {
+
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Home */
+
+@media (max-width:$smartphone) {
+
+    .uno {
+
+        font-size: 25px;
+    }
+}
+
+@media (max-width:$smartphone) {
+
+    .dos {
+
+        font-size: 35px;
+    }
+}
+
+@media (max-width:$smartphone) {
+
+    .carousel-caption {
+
+        margin-bottom: 10%;
+    }
+
+}
